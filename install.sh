@@ -12,6 +12,8 @@ echo
 
 if [[ $REPLY =~ ^[Yy]$ ]]
 then
+  if [ -d "${INSTAVIM_DIR}" ]; then rm -Rf ${INSTAVIM_DIR}; fi
+
   echo "--> Cloning INSTAVIM repository to ${INSTAVIM_DIR}"
   git clone --recursive "${SOURCE_REPO}.git" ${INSTAVIM_DIR}
 
