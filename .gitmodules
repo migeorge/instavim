@@ -1,0 +1,3 @@
+[submodule "plugins/vim-dichromatic"]
+	path = plugins/vim-dichromatic
+	url = https://github.com/romainl/vim-dichromatic
