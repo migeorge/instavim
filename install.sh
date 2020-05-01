@@ -36,10 +36,10 @@ then
   mkdir -p ${HOME}/.vim/colors
 
   # Symlink Plugins / Colors
-  ln -s ${INSTAVIM_DIR}/plugins/vim-dichromatic/colors/dichromatic.vim ${HOME}/.vim/colors/dichromatic.vim
+  ln -sf ${INSTAVIM_DIR}/plugins/vim-dichromatic/colors/dichromatic.vim ${HOME}/.vim/colors/dichromatic.vim
 
   # Symlink .vimrc
-  ln -s ${INSTAVIM_DIR}/.vimrc ${HOME}/.vimrc
+  ln -sf ${INSTAVIM_DIR}/.vimrc ${HOME}/.vimrc
 
   echo
   echo "-> vim is now configured and ready to use!"
